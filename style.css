@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@200&family=Ubuntu+Mono&family=Ubuntu:wght@500&display=swap');
+/* DEFAULT */
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: rgb(253 , 251 , 251);
+}
+h1, h2, h3, h4{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(162 , 227 , 196);
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgb(60 , 73 , 63);
+}
+section, article, aside{
+    padding: 20px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(240 , 247 , 244);
+    text-align: justify;
+    text-shadow: 2px 2px 1px rgba(0, 0 , 0 , .2);
+    line-height: 20px;
+}
+/* END DEFAULT */
+/* CABECALHO */
+header{
+    position: fixed;
+    top: 0px;
+    background-color: rgb(60 , 73 , 63);
+    width: 100%;
+    padding: 68px;
+}
+h1{
+    font-family: 'Ubuntu Mono', monospace;
+    color: rgb(162 , 227 , 196);
+    margin-bottom: 20px;
+}
+/* MENU */
+li{
+    display: inline-block;
+}
+header a{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 5px;
+    color: rgb(240 , 247 , 244);
+    transition: .4s;
+}
+header a:hover{
+    color: rgb(179 , 191 , 184);
+}
+/* END MENU */
+/* END CABECALHO */
+/* SOBRE */
+.primeira{
+    margin: auto;
+    margin-top: 250px;
+    margin-bottom: 30px;
+    width: 800px;
+    height: 380px;
+    background-color: rgb(126 , 141 , 133);
+}
+.primeira h2{
+    width: 860px;
+    margin-left: -30px;
+    border-radius: 0 0 5% 5%;
+}
+img{
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+}
+/* TABLE */
+table{
+    font-family: 'Arvo', serif;
+    font-size: 1.2em;
+    color: rgb(240 , 247 , 244);
+    margin-bottom: 10px;
+}
+th{
+    background-color: rgb(179 , 191 , 184);
+    text-shadow: 2px 2px 1px rgba(0 , 0 , 0 , .2);
+}
+td{
+    text-align: center;
+    background-color: rgb(60, 73 , 63);
+    color: rgb(162 , 227 , 196);
+    border-radius: 20% 0;
+    padding: 10px;
+}
+.main-td{
+    text-align: left;
+    color: rgb(126 , 141 , 133);
+    background-color: rgb(240 , 247 , 244);
+}
+/* END TABLE */
+/* END SOBRE */
+/* ARTICLE */
+article{
+    background-color: rgb(60 , 73 , 63);
+    width: 800px;
+    margin-left: 20px;
+    float: left;
+}
+article h2{
+    background-color: rgb(126 , 141 , 133);
+}
+/* END ARTICLE */
+/* ASIDE */
+aside{
+    background-color: rgb(126 , 141 , 133);
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+aside h2{
+    width: 360px;
+    margin-left: -30px;
+    border-radius: 0 0 5% 5%;
+}
+/* END ASIDE */
+/* LISTAS */
+.listas{
+    padding: 20px 0;
+    clear: both;
+    width: 100%;
+    background-color: rgb(179 , 191 , 184);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.listas h3{
+    margin-left: -30px;
+    width: 360px;
+    border-radius: 0 0 5% 5%;
+    background-color: rgb(60 , 73 , 63);
+    margin-bottom: 20px;
+}
+.listas ul, .listas ol{
+    display: inline-block;
+    margin: 20px 100px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0 , 0 , 0 , .2);
+}
+.listas ul li{
+    background-color: rgb(240 , 247 , 244);
+    color: rgb(126 , 141 , 133);
+    transition: .4s;
+}
+.listas ul li:hover{
+    background-color: rgb(60 , 73 , 63);
+    color: rgb(179 , 191 , 184);
+}
+.listas ol li{
+    background-color: rgb(60 , 73 , 63);
+    color: rgb(179 , 191 , 184);
+    transition: .4s;
+}
+.listas ol li:hover{
+    background-color: rgb(240 , 247 , 244);
+    color: rgb(126 , 141 , 133);
+}
+.listas li{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    transition: .4s;
+}
+.listas li:hover{
+    font-size: 1.5rem;
+}
+/* END LISTAS */
+/* FOOTER */
+footer{
+    box-shadow: 0px -5px 10px rgba(0, 0 , 0 , .2);
+    background-color: rgb(240 , 247 , 244);
+    padding: 20px;
+    text-align: center;
+}
+footer h4{
+    background-color: rgb(60 , 73 , 63);
+    text-align: center;
+    margin-bottom: 30px;
+}
+em{
+    color: rgb(240 , 247 , 244);
+}
+h5{
+    font-family: 'Ubuntu Mono', monospace;
+}
+footer a{
+    margin: 30px 50px;
+    display: inline-block;
+    color: rgb(126 , 141 , 133);
+    font-family: 'Ubuntu', sans-serif;
+    transition: .6s;
+}
+footer a:hover{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+footer a img{
+    width: 20px;
+    margin: 0;
+    margin-right: 5px;
+}
+footer address.icones{
+    margin: 0 auto;
+    width: 500px;
+    padding: 0;
+    background-color: rgb(60 , 73 , 63);
+}
+.icones a{
+    margin: 0;
+}
+/* END FOOTER */
